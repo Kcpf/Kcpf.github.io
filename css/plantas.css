@@ -1,0 +1,49 @@
+header h1 {
+    text-align: center;
+}
+
+img{
+    height: 15rem;
+    width: 20rem;
+    display:block;
+    border-radius: 1.5rem;
+    margin: auto;
+    margin-top: 1rem;
+}
+
+div.descricao{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    margin: 2rem;
+    background-color: white;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0.1rem 0.1rem 0.1rem grey;
+}
+
+p{
+   margin-left: 0.5rem;
+   margin-bottom: 0.5rem;
+   align-self: center;
+   text-decoration: underline;
+   font-size: 1.2rem;
+}
+
+li {
+    font-family: 'IBM Plex Serif', serif;
+    margin: .5rem 0 .5rem 0;
+}
+
+a.comprar {
+    display: flex;
+    justify-content: center;
+    padding: .3rem;
+    margin: 0 4rem 0 4rem;
+    font-size: 1.4rem;
+    border-radius: 1rem;
+    background-color: #56593F;
+    color: white;
+    margin-bottom: 1rem;
+    text-decoration: none;
+}

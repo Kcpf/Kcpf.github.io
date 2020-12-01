@@ -1,0 +1,53 @@
+body{
+    height: 100%;
+    width: 100%;
+    background-color: #FFF2EFE4;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    width: 100%;
+    top: 0;
+    height: 3rem;
+    background-color: #D9765F;
+    border-bottom: solid #D9765F .2rem;
+    border-bottom-left-radius: .5rem;
+    border-bottom-right-radius: .5rem;
+    color: #FFF2EFE4;
+}
+
+header h1 {
+    padding-left: 1rem;
+    padding-bottom: .5rem;
+    padding-top: 1rem;
+    font-size: 2rem;
+}
+
+main{
+    margin-bottom: 4rem;
+    width: 100%;
+    height: 100%;
+}
+
+nav {
+    position: fixed;
+    bottom: 0;
+    height: 2.5rem;
+    padding: 0.5rem 0 0.5rem 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    background-color: #5D5C68;
+    border-radius: 1rem 1rem 0 0;
+}
+
+a.navbar {
+    text-decoration: none;
+    color: #FFF2EFE4;
+    align-self: center;
+    font-size: 1.3rem;
+}
